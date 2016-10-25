@@ -1,0 +1,45 @@
+syndaemon: no process found
+/etc/mdm/Xsession: Beginning session setup...
+localuser:isaias being added to access control list
+mate-session[1642]: WARNING: Unable to find provider '' of required component 'dock'
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+/usr/lib/blueberry/blueberry-tray.py:5: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, Gdk, GnomeBluetooth, Gio
+/usr/lib/nvidia-prime-applet/nvidia-prime:5: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, Gdk
+/usr/lib/blueberry/blueberry-tray.py:5: PyGIWarning: GnomeBluetooth was imported without specifying a version first. Use gi.require_version('GnomeBluetooth', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, Gdk, GnomeBluetooth, Gio
+** Message: Initializing gksu extension...
+/usr/lib/python2.7/dist-packages/gi/overrides/Gtk.py:50: RuntimeWarning: You have imported the Gtk 2.0 module.  Because Gtk 2.0 was not designed for use with introspection some of the interfaces and API will fail.  As such this is not supported by the pygobject development team and we encourage you to port your app to Gtk 3 or greater. PyGTK is the recomended python module to use with Gtk 2.0
+  warnings.warn(warn_msg, RuntimeWarning)
+sys:1: PyGIWarning: Caja was imported without specifying a version first. Use gi.require_version('Caja', '2.0') before import to ensure that the right version gets loaded.
+
+(nm-applet:1827): Gdk-CRITICAL **: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+Initializing caja-open-terminal extension
+mintUpdate: no process found
+
+(mate-terminal:2905): GLib-GIO-WARNING **: Failed to parse translated string 'Terminal' for key 'title' in schema 'org.mate.terminal.profile': 0-1:unknown keyword
+
+(mate-terminal:2905): GLib-GIO-WARNING **: Using untranslated default instead.
+Advertencia del gestor de ventanas: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x1a0001f ()
+Advertencia del gestor de ventanas: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+sys:1: Warning: /build/glib2.0-t9oPgV/glib2.0-2.48.0/./gobject/gsignal.c:2635: instance '0x7f022000d4c0' has no handler with id '8691'
+sys:1: Warning: /build/glib2.0-t9oPgV/glib2.0-2.48.0/./gobject/gsignal.c:2635: instance '0x55c6b1fda280' has no handler with id '10397'
+sys:1: Warning: /build/glib2.0-t9oPgV/glib2.0-2.48.0/./gobject/gsignal.c:2635: instance '0x55c6b203dcc0' has no handler with id '10404'
+sys:1: Warning: /build/glib2.0-t9oPgV/glib2.0-2.48.0/./gobject/gsignal.c:2635: instance '0x55c6b218b960' has no handler with id '7380'
+sys:1: Warning: /build/glib2.0-t9oPgV/glib2.0-2.48.0/./gobject/gsignal.c:2635: instance '0x55c6b1fda280' has no handler with id '10378'
+sys:1: Warning: /build/glib2.0-t9oPgV/glib2.0-2.48.0/./gobject/gsignal.c:2635: instance '0x55c6b203dcc0' has no handler with id '10385'
+
+** (mate-settings-daemon:1760): WARNING **: Disable DEBUG
+
+(mate-terminal:3712): GLib-GIO-WARNING **: Failed to parse translated string 'Terminal' for key 'title' in schema 'org.mate.terminal.profile': 0-1:unknown keyword
+
+(mate-terminal:3712): GLib-GIO-WARNING **: Using untranslated default instead.
+1477354667018	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1477354667272	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1477354667283	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1477354670289	addons.xpi	ERROR	Attempted to load bootstrap scope from missing directory /home/isaias/.mozilla/firefox/mwad0hks.default/extensions/firefox-hotfix@mozilla.org.xpi
+1477354670290	addons.xpi	WARN	Add-on firefox-hotfix@mozilla.org is missing bootstrap method shutdown
+1477354670294	addons.manager	WARN	Exception calling callback: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isDirectory]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: getURIForResourceInFile :: line 1461"  data: no] Stack trace: getURIForResourceInFile()@resource://gre/modules/addons/XPIProvider.jsm:1461 < this.XPIProvider.callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4686 < this.XPIProvider.uninstallAddon()@resource://gre/modules/addons/XPIProvider.jsm:4964 < AddonWrapper.prototype.uninstall()@resource://gre/modules/addons/XPIProvider.jsm:7198 < uninstallHotfix/<()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///home/isaias/.mozilla/firefox/mwad0hks.default/extensions/firefox-hotfix@mozilla.org.xpi!/bootstrap.js:93 < safeCall()@resource://gre/modules/AddonManager.jsm:179 < makeSafe/<()@resource://gre/modules/AddonManager.jsm:195 < Handler.prototype.process()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:937 < this.PromiseWalker.walkerLoop()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:816 < this.PromiseWalker.scheduleWalkerLoop/<()@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:750
